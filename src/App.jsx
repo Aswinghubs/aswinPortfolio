@@ -193,6 +193,7 @@ function App() {
                 <span>Flutter</span>
                 <span>Provider</span>
                 <span>REST APIs</span>
+                <span>HIVE</span>
                 <span>WebSockets</span>
                 <span>ZEGOCLOUD</span>
               </div>
@@ -255,6 +256,36 @@ function App() {
                 <span>AWS</span>
               </div>
             </article>
+            {/* PROJECT 4: MY NOTES */}
+            <article className="project-card">
+              <div className="project-number">PROJECT / 04</div>
+
+              <div className="project-image">
+                <img
+                  src="/images/noteAppImages/notesApp.png"
+                  alt="My Notes personal note-taking application"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3>My Notes</h3>
+
+              <p>
+                A personal note-taking application that lets users write,
+                draw, and save notes in one place. Built with offline storage
+                using Hive and a Node.js backend, with Riverpod for state
+                management and efficient data handling.
+              </p>
+
+              <div className="project-tags">
+                <span>Flutter</span>
+                <span>Riverpod</span>
+                <span>Hive</span>
+                <span>Node.js</span>
+                <span>REST APIs</span>
+              </div>
+            </article>
+
           </div>
         </section>
 

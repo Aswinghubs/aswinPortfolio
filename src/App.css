@@ -134,9 +134,12 @@ a {
 .hero-description,
 .section-description {
   max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
   color: #9da5bc;
   line-height: 1.9;
   font-size: 15px;
+  text-align: center;
 }
 
 .hero-buttons {
